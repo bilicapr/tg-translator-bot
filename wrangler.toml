@@ -1,0 +1,13 @@
+name = "tg-translator-bot"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# D1 Database Binding
+[[d1_databases]]
+binding = "DB"
+database_name = "tg-bot-db"
+database_id = "c1d687ca-2c41-4cda-8237-3d139b1e4e32"
+
+[triggers]
+crons = []
+
